@@ -30,6 +30,7 @@ function firstQuestion(){
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
+        document.getElementById('myAudio').play()
       })
 }
 
